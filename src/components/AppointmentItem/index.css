@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.container-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #b5b7c4;
+  border-radius: 4px;
+  background-color: #ffffff;
+  width: 30%;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.title-date-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #171f46;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+.time {
+  color: #9897f0;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+.button-icon {
+  background-color: transparent;
+  border: none;
+}
